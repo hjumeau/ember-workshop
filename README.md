@@ -1,0 +1,4 @@
+ember-workshop
+==============
+
+WIP...
