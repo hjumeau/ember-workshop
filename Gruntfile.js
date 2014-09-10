@@ -30,7 +30,7 @@ module.exports = function (grunt) {
           precompile: false
         },
         files: {
-          'tmp/assets/templates.js': 'app/templates/*.hbs'
+          'tmp/assets/templates.js': 'app/templates/**/*.hbs'
         }
       }
     },
