@@ -6,7 +6,35 @@ body {
   position: relative;
   margin: 50px auto 0;
   background: #ccc;
-  //overflow: hidden;
+  overflow: hidden;
+}
+
+header {
+  height: 50px;
+  position: relative;
+  z-index: 1;
+  background: #F78D3F;
+  margin-bottom: 10px;
+
+  .menu-home {
+    font-size: 28px;
+    position: relative;
+    top: 10px;
+    margin-left: 10px;
+    color: #FCD271;
+  }
+
+  a:link, a:visited, a:hover {
+    color: #336699;
+  }
+}
+
+footer {
+  position: fixed;
+  bottom : 0;
+  left: 0;
+  right: 0;
+  height: 10px;
 }
 
 .application-wrapper {
@@ -15,17 +43,18 @@ body {
     width:320px;
     height:580px;
     background:white;
-    
-    // home page is NOT scrollable
-    &.home { overflow:hidden; }
-    // result page is scrollable
-    &.results { overflow:visible; }
 }
 
-.main-wrapper {
+.users-wrapper {
+  position:relative;
   padding: 0;
   margin: 0;
   height: 100%;
+
+    .index {
+      height: 510px;
+      overflow: auto;
+    }
 }
 
 a:hover, a:active {

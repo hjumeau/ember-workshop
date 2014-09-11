@@ -1,5 +1,17 @@
-<ul>
-	{{#each item in model}}
-		<li>{{item}}</li>
-	{{/each}}
-</ul>
+<div class="index">
+{{#each user in model}}
+	<div class="panel panel-default">
+	  <div class="panel-body">
+	  	<div class="row">
+		    <div class="col-xs-6">
+		  		<img src={{unbound user.thumbnailUrl}} alt={{unbound user.name}} class="img-thumbnail">
+		  	</div>
+		  	<div class="col-xs-6">
+		  		<h3>{{user.name}}</h3>
+		  	</div>
+	  	</div>
+	  </div>
+	</div>
+{{/each}}
+</div>
+
