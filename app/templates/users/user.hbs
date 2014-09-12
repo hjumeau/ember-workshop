@@ -1,0 +1,13 @@
+
+<div class="row">
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img {{bind-attr src=model.thumbnailUrl}} {{bind-attr alt=model.name}} class="img-thumbnail">
+      <div class="caption">
+        <h3>{{model.name}}</h3>
+        <p>{{model.description}}</p>
+        <p><a href="#" class="btn btn-primary" role="button">Edit</a> <a href="#" class="btn btn-danger" role="button">Cancel</a></p>
+      </div>
+    </div>
+  </div>
+</div>
