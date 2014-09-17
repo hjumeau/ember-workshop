@@ -5,7 +5,7 @@ module.exports = function(server) {
   server.namespace('/api', function() {
 
     // Return fixture data for '/api/posts/:id'
-    server.get('/users', function(req, res) {
+    server.get('/heroes', function(req, res) {
       var users = [
       {
         "id": 1010744,

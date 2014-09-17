@@ -6,8 +6,11 @@
       <div class="caption">
         <h3>{{model.name}}</h3>
         <p>{{model.description}}</p>
-        <p><a href="#" class="btn btn-primary" role="button">Edit</a> <a href="#" class="btn btn-danger" role="button">Cancel</a></p>
+        <p>{{#link-to 'heroes.hero.rate' class="btn btn-primary"}}Edit{{/link-to}} <a href="#" class="btn btn-danger" role="button">Cancel</a></p>
       </div>
     </div>
   </div>
+</div>
+<div class="row">
+  {{outlet}}
 </div>

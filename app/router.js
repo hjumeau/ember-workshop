@@ -1,5 +1,7 @@
 App.Router.map(function() {
-  this.resource('users', function(){
-  	this.route('user', {path: '/:id'});
+  this.resource('heroes', function(){
+  	this.resource('heroes.hero', {path: '/:id'}, function(){
+  		this.route('rate');
+  	});
   });
 });

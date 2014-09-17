@@ -1,11 +1,11 @@
 <header>
 </header>
-<section class="users-wrapper">
+<section class="heroes-wrapper">
 <div class="row">
   <div class="col-xs-6">
   	<ul>
-	{{#each user in model}}
-		<li>{{#link-to 'users.user' user}}{{user.name}}{{/link-to}}</li>
+	{{#each hero in model}}
+		<li>{{#link-to 'heroes.hero' hero}}{{hero.name}}{{/link-to}}</li>
 	{{/each}}
 	</ul>
   </div>

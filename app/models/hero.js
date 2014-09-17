@@ -1,4 +1,4 @@
-App.User = Ember.Object.extend({
+App.Hero = Ember.Object.extend({
 	thumbnailUrl: function(){
 		return this.thumbnail.path + '.' + this.thumbnail.extension;	
 	}.property(),
