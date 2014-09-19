@@ -4,7 +4,7 @@
 <div class="row">
   <div class="col-xs-6 col-sm-4">
   	<ul>
-	{{#each hero in model}}
+	{{#each hero in arrangedContent}}
 		<li>{{#link-to 'heroes.hero' hero}}{{hero.name}}{{/link-to}}</li>
 	{{/each}}
 	</ul>

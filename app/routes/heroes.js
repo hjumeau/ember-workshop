@@ -1,6 +1,6 @@
 App.HeroesRoute = Ember.Route.extend({
   model: function() {
-    return $.getJSON('/api/heroes').done(function(data) {
+    return $.getJSON('/api/heroes').then(function(data) {
     	return data.map(function(user){
     		return App.Hero.create(user);
     	});

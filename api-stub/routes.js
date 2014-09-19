@@ -32,7 +32,7 @@ module.exports = function(server) {
           }
         ],
         "rating": {
-          "strength": 3, "agility": 2, "stamina": 4, "intellect": 5, "speed": 1
+          "strength": 2, "agility": 2, "stamina": 2, "intellect": 2, "speed": 2
         }
       },
       {
@@ -60,7 +60,7 @@ module.exports = function(server) {
           }
         ],
         "rating": {
-          "strength": 3, "agility": 2, "stamina": 4, "intellect": 5, "speed": 1
+          "strength": 2, "agility": 2, "stamina": 2, "intellect": 2, "speed": 2
         }
       },
       {
@@ -88,7 +88,7 @@ module.exports = function(server) {
           }
         ],
         "rating": {
-          "strength": 3, "agility": 2, "stamina": 4, "intellect": 5, "speed": 5
+          "strength": 2, "agility": 2, "stamina": 2, "intellect": 2, "speed": 2
         }
       },
       {
@@ -116,7 +116,7 @@ module.exports = function(server) {
           }
         ],
         "rating": {
-          "strength": 3, "agility": 2, "stamina": 4, "intellect": 5, "speed": 1
+          "strength": 2, "agility": 2, "stamina": 2, "intellect": 2, "speed": 2
         }
       },
       {
@@ -144,7 +144,7 @@ module.exports = function(server) {
           }
         ],
         "rating": {
-          "strength": 3, "agility": 2, "stamina": 4, "intellect": 5, "speed": 1
+          "strength": 2, "agility": 2, "stamina": 2, "intellect": 2, "speed": 2
         }
       }
       ,
@@ -169,7 +169,7 @@ module.exports = function(server) {
           }
         ],
         "rating": {
-          "strength": 3, "agility": 2, "stamina": 4, "intellect": 5, "speed": 1
+          "strength": 2, "agility": 2, "stamina": 2, "intellect": 2, "speed": 2
         }
       },
       {
@@ -197,7 +197,7 @@ module.exports = function(server) {
           }
         ],
         "rating": {
-          "strength": 3, "agility": 2, "stamina": 4, "intellect": 5, "speed": 1
+          "strength": 2, "agility": 2, "stamina": 2, "intellect": 2, "speed": 2
         }
       },
       {
@@ -225,7 +225,7 @@ module.exports = function(server) {
           }
         ],
         "rating": {
-          "strength": 3, "agility": 2, "stamina": 4, "intellect": 5, "speed": 1
+          "strength": 2, "agility": 2, "stamina": 2, "intellect": 2, "speed": 2
         }
       },
       {
@@ -253,7 +253,7 @@ module.exports = function(server) {
           }
         ],
         "rating": {
-          "strength": 3, "agility": 2, "stamina": 4, "intellect": 5, "speed": 1
+          "strength": 2, "agility": 2, "stamina": 2, "intellect": 2, "speed": 2
         }
       },
       {
@@ -281,7 +281,7 @@ module.exports = function(server) {
           }
         ],
         "rating": {
-          "strength": 3, "agility": 2, "stamina": 4, "intellect": 5, "speed": 1
+          "strength": 2, "agility": 2, "stamina": 2, "intellect": 2, "speed": 2
         }
       }
       ]

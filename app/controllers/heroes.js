@@ -1,4 +1,4 @@
 App.HeroesController = Ember.ArrayController.extend({		
-	sortProperties: ['name'],
-	sortAscending: true
+	sortProperties: ['score'],
+	sortAscending: false
 });
