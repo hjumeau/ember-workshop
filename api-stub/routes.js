@@ -30,7 +30,10 @@ module.exports = function(server) {
             "type": "comiclink",
             "url": "http://marvel.com/comics/characters/1010744/rocket_raccoon?utm_campaign=apiRef&utm_source=3ab6eb8b6ef6df9d9ca15990bde84a7f"
           }
-        ]
+        ],
+        "rating": {
+          "strength": 3, "agility": 2, "stamina": 4, "intellect": 5, "speed": 1
+        }
       },
       {
         "id": 1009351,
@@ -55,7 +58,10 @@ module.exports = function(server) {
             "type": "comiclink",
             "url": "http://marvel.com/comics/characters/1009351/hulk?utm_campaign=apiRef&utm_source=3ab6eb8b6ef6df9d9ca15990bde84a7f"
           }
-        ]
+        ],
+        "rating": {
+          "strength": 3, "agility": 2, "stamina": 4, "intellect": 5, "speed": 1
+        }
       },
       {
         "id": 1009356,
@@ -80,7 +86,10 @@ module.exports = function(server) {
             "type": "comiclink",
             "url": "http://marvel.com/comics/characters/1009356/human_torch?utm_campaign=apiRef&utm_source=3ab6eb8b6ef6df9d9ca15990bde84a7f"
           }
-        ]
+        ],
+        "rating": {
+          "strength": 3, "agility": 2, "stamina": 4, "intellect": 5, "speed": 5
+        }
       },
       {
         "id": 1009718,
@@ -105,7 +114,10 @@ module.exports = function(server) {
             "type": "comiclink",
             "url": "http://marvel.com/comics/characters/1009718/wolverine?utm_campaign=apiRef&utm_source=3ab6eb8b6ef6df9d9ca15990bde84a7f"
           }
-        ]
+        ],
+        "rating": {
+          "strength": 3, "agility": 2, "stamina": 4, "intellect": 5, "speed": 1
+        }
       },
       {
         "id": 1009610,
@@ -118,19 +130,22 @@ module.exports = function(server) {
         },
         "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009610",
         "urls": [
-        {
-          "type": "detail",
-          "url": "http://marvel.com/characters/54/spider-man?utm_campaign=apiRef&utm_source=3ab6eb8b6ef6df9d9ca15990bde84a7f"
-        },
-        {
-          "type": "wiki",
-          "url": "http://marvel.com/universe/Spider-Man_(Peter_Parker)?utm_campaign=apiRef&utm_source=3ab6eb8b6ef6df9d9ca15990bde84a7f"
-        },
-        {
-          "type": "comiclink",
-          "url": "http://marvel.com/comics/characters/1009610/spider-man?utm_campaign=apiRef&utm_source=3ab6eb8b6ef6df9d9ca15990bde84a7f"
+          {
+            "type": "detail",
+            "url": "http://marvel.com/characters/54/spider-man?utm_campaign=apiRef&utm_source=3ab6eb8b6ef6df9d9ca15990bde84a7f"
+          },
+          {
+            "type": "wiki",
+            "url": "http://marvel.com/universe/Spider-Man_(Peter_Parker)?utm_campaign=apiRef&utm_source=3ab6eb8b6ef6df9d9ca15990bde84a7f"
+          },
+          {
+            "type": "comiclink",
+            "url": "http://marvel.com/comics/characters/1009610/spider-man?utm_campaign=apiRef&utm_source=3ab6eb8b6ef6df9d9ca15990bde84a7f"
+          }
+        ],
+        "rating": {
+          "strength": 3, "agility": 2, "stamina": 4, "intellect": 5, "speed": 1
         }
-        ]
       }
       ,
       {
@@ -144,15 +159,18 @@ module.exports = function(server) {
         },
         "resourceURI": "http://gateway.marvel.com/v1/public/characters/1017100",
         "urls": [
-        {
-          "type": "detail",
-          "url": "http://marvel.com/characters/76/a-bomb?utm_campaign=apiRef&utm_source=3ab6eb8b6ef6df9d9ca15990bde84a7f"
-        },
-        {
-          "type": "comiclink",
-          "url": "http://marvel.com/comics/characters/1017100/a-bomb_has?utm_campaign=apiRef&utm_source=3ab6eb8b6ef6df9d9ca15990bde84a7f"
+          {
+            "type": "detail",
+            "url": "http://marvel.com/characters/76/a-bomb?utm_campaign=apiRef&utm_source=3ab6eb8b6ef6df9d9ca15990bde84a7f"
+          },
+          {
+            "type": "comiclink",
+            "url": "http://marvel.com/comics/characters/1017100/a-bomb_has?utm_campaign=apiRef&utm_source=3ab6eb8b6ef6df9d9ca15990bde84a7f"
+          }
+        ],
+        "rating": {
+          "strength": 3, "agility": 2, "stamina": 4, "intellect": 5, "speed": 1
         }
-        ]
       },
       {
         "id": 1009144,
@@ -165,19 +183,22 @@ module.exports = function(server) {
         },
         "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009144",
         "urls": [
-        {
-          "type": "detail",
-          "url": "http://marvel.com/characters/77/aim.?utm_campaign=apiRef&utm_source=3ab6eb8b6ef6df9d9ca15990bde84a7f"
-        },
-        {
-          "type": "wiki",
-          "url": "http://marvel.com/universe/A.I.M.?utm_campaign=apiRef&utm_source=3ab6eb8b6ef6df9d9ca15990bde84a7f"
-        },
-        {
-          "type": "comiclink",
-          "url": "http://marvel.com/comics/characters/1009144/aim.?utm_campaign=apiRef&utm_source=3ab6eb8b6ef6df9d9ca15990bde84a7f"
+          {
+            "type": "detail",
+            "url": "http://marvel.com/characters/77/aim.?utm_campaign=apiRef&utm_source=3ab6eb8b6ef6df9d9ca15990bde84a7f"
+          },
+          {
+            "type": "wiki",
+            "url": "http://marvel.com/universe/A.I.M.?utm_campaign=apiRef&utm_source=3ab6eb8b6ef6df9d9ca15990bde84a7f"
+          },
+          {
+            "type": "comiclink",
+            "url": "http://marvel.com/comics/characters/1009144/aim.?utm_campaign=apiRef&utm_source=3ab6eb8b6ef6df9d9ca15990bde84a7f"
+          }
+        ],
+        "rating": {
+          "strength": 3, "agility": 2, "stamina": 4, "intellect": 5, "speed": 1
         }
-        ]
       },
       {
         "id": 1009146,
@@ -190,19 +211,22 @@ module.exports = function(server) {
         },
         "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009146",
         "urls": [
-        {
-          "type": "detail",
-          "url": "http://marvel.com/characters/81/abomination?utm_campaign=apiRef&utm_source=3ab6eb8b6ef6df9d9ca15990bde84a7f"
-        },
-        {
-          "type": "wiki",
-          "url": "http://marvel.com/universe/Abomination?utm_campaign=apiRef&utm_source=3ab6eb8b6ef6df9d9ca15990bde84a7f"
-        },
-        {
-          "type": "comiclink",
-          "url": "http://marvel.com/comics/characters/1009146/abomination_emil_blonsky?utm_campaign=apiRef&utm_source=3ab6eb8b6ef6df9d9ca15990bde84a7f"
+          {
+            "type": "detail",
+            "url": "http://marvel.com/characters/81/abomination?utm_campaign=apiRef&utm_source=3ab6eb8b6ef6df9d9ca15990bde84a7f"
+          },
+          {
+            "type": "wiki",
+            "url": "http://marvel.com/universe/Abomination?utm_campaign=apiRef&utm_source=3ab6eb8b6ef6df9d9ca15990bde84a7f"
+          },
+          {
+            "type": "comiclink",
+            "url": "http://marvel.com/comics/characters/1009146/abomination_emil_blonsky?utm_campaign=apiRef&utm_source=3ab6eb8b6ef6df9d9ca15990bde84a7f"
+          }
+        ],
+        "rating": {
+          "strength": 3, "agility": 2, "stamina": 4, "intellect": 5, "speed": 1
         }
-        ]
       },
       {
         "id": 1009148,
@@ -215,19 +239,22 @@ module.exports = function(server) {
         },
         "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009148",
         "urls": [
-        {
-          "type": "detail",
-          "url": "http://marvel.com/characters/84/absorbing_man?utm_campaign=apiRef&utm_source=3ab6eb8b6ef6df9d9ca15990bde84a7f"
-        },
-        {
-          "type": "wiki",
-          "url": "http://marvel.com/universe/Absorbing_Man?utm_campaign=apiRef&utm_source=3ab6eb8b6ef6df9d9ca15990bde84a7f"
-        },
-        {
-          "type": "comiclink",
-          "url": "http://marvel.com/comics/characters/1009148/absorbing_man?utm_campaign=apiRef&utm_source=3ab6eb8b6ef6df9d9ca15990bde84a7f"
+          {
+            "type": "detail",
+            "url": "http://marvel.com/characters/84/absorbing_man?utm_campaign=apiRef&utm_source=3ab6eb8b6ef6df9d9ca15990bde84a7f"
+          },
+          {
+            "type": "wiki",
+            "url": "http://marvel.com/universe/Absorbing_Man?utm_campaign=apiRef&utm_source=3ab6eb8b6ef6df9d9ca15990bde84a7f"
+          },
+          {
+            "type": "comiclink",
+            "url": "http://marvel.com/comics/characters/1009148/absorbing_man?utm_campaign=apiRef&utm_source=3ab6eb8b6ef6df9d9ca15990bde84a7f"
+          }
+        ],
+        "rating": {
+          "strength": 3, "agility": 2, "stamina": 4, "intellect": 5, "speed": 1
         }
-        ]
       },
       {
         "id": 1009149,
@@ -240,19 +267,22 @@ module.exports = function(server) {
         },
         "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009149",
         "urls": [
-        {
-          "type": "detail",
-          "url": "http://marvel.com/characters/85/abyss?utm_campaign=apiRef&utm_source=3ab6eb8b6ef6df9d9ca15990bde84a7f"
-        },
-        {
-          "type": "wiki",
-          "url": "http://marvel.com/universe/Abyss_(alien)?utm_campaign=apiRef&utm_source=3ab6eb8b6ef6df9d9ca15990bde84a7f"
-        },
-        {
-          "type": "comiclink",
-          "url": "http://marvel.com/comics/characters/1009149/abyss?utm_campaign=apiRef&utm_source=3ab6eb8b6ef6df9d9ca15990bde84a7f"
+          {
+            "type": "detail",
+            "url": "http://marvel.com/characters/85/abyss?utm_campaign=apiRef&utm_source=3ab6eb8b6ef6df9d9ca15990bde84a7f"
+          },
+          {
+            "type": "wiki",
+            "url": "http://marvel.com/universe/Abyss_(alien)?utm_campaign=apiRef&utm_source=3ab6eb8b6ef6df9d9ca15990bde84a7f"
+          },
+          {
+            "type": "comiclink",
+            "url": "http://marvel.com/comics/characters/1009149/abyss?utm_campaign=apiRef&utm_source=3ab6eb8b6ef6df9d9ca15990bde84a7f"
+          }
+        ],
+        "rating": {
+          "strength": 3, "agility": 2, "stamina": 4, "intellect": 5, "speed": 1
         }
-        ]
       }
       ]
       res.send(users);

@@ -4,5 +4,13 @@ App.Hero = Ember.Object.extend({
 	}.property(),
 	detailUrl: function() {
 		return this.urls.findBy('type','detail').url;
-	}.property() 
+	}.property(),
+	score: function() {
+		var score = 0;
+		// return rating.strength + rating.agility + rating.intellect + rating.stamina + rating.speed;
+		for(var param in this.rating) {
+   			score += parseInt(this.rating[param]);
+		}
+		return score 
+	}.property('rating.{strenght,agility,intellect,stamina,speed}') 
 });
