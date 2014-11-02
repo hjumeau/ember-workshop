@@ -28,6 +28,9 @@
     "grunt-express-server": "~0.4.19",
     "express-namespace": "~0.1.1",
     "load-grunt-tasks": "~0.6.0",
-    "urlencode": "~0.2.0"
+    "karma-ember-preprocessor": "*",
+    "karma-qunit": "*",
+    "karma": "~0.10",
+    "karma-phantomjs-launcher": "~0.1"
   }
 }
