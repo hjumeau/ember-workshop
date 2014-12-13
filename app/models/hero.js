@@ -11,6 +11,6 @@ App.Hero = Ember.Object.extend({
 		for(var param in this.rating) {
    			score += parseInt(this.rating[param]);
 		}
-		return score 
+		return score;
 	}.property('rating.{strength,agility,intellect,stamina,speed}') 
 });

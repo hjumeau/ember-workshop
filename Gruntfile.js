@@ -70,10 +70,17 @@ module.exports = function (grunt) {
     },
     clean: {
       build: ['tmp']
-    }  
+    },
+    jshint: {
+      src: 'app/**/*.js',
+      options: {
+        jshintrc: '.jshintrc',
+        force: true
+      }
+    } 
   });
 
-  grunt.registerTask('build', ['clean:build', 'emberTemplates:compile', 'less:compile', 'copy']);
+  grunt.registerTask('build', ['clean:build', 'emberTemplates:compile', 'less:compile', 'copy', 'jshint']);
 
   grunt.registerTask('server', ['build', 'express:dev', 'watch']);
 };
