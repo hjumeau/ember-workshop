@@ -9,7 +9,7 @@
         </div>
       </div>
       <p>{{model.description}}</p>
-      <p>{{#link-to 'heroes.hero.rate' class="btn btn-primary"}}Rate{{/link-to}} <a href="#" class="btn btn-danger" role="button">Delete</a></p>
+      <p>{{#link-to 'heroes.hero.rate' class="btn btn-primary"}}Rate{{/link-to}} <a {{action 'remove' model.id}} class="btn btn-danger" role="button">Delete</a></p>
     </div>
   </div>
 </div>

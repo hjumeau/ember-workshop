@@ -5,5 +5,12 @@ App.HeroesHeroRoute = Ember.Route.extend({
 	},
 	setupController: function(controller, model) {
 		controller.set('model', App.Hero.create(model));
+	},
+	actions:{
+		remove: function(id){
+			var heroes = this.modelFor('heroes');
+			heroes.removeObject(heroes.findBy('id', id));
+			this.transitionTo('heroes');
+		}
 	}
 });
